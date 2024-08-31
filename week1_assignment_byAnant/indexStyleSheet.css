@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+}
+nav img{
+    padding: 20px;
+}
+nav ul{
+    color: white;
+    gap: 10px;
+    display: flex;
+    text-align: left;
+}
+nav ul li{
+    list-style: none;
+}
+.container{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+}
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: green;
+}
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: green;
+}
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    background-color: green;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item span {
+    display: block; /* Ensures spans are on new lines */
+    margin-bottom: 10px; /* Adjust spacing between spans and the hr */
+}
+
+.item2 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
